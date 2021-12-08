@@ -19,7 +19,7 @@ wss.on("connection", function connection(ws) {
 
   ws.send("something");
 });
-
+//
 export function sendMessage(text) {
   subject.send(text);
 }
